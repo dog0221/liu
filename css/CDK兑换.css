@@ -1,0 +1,114 @@
+.content1 .content1-inner1{
+	height:838px;
+}
+/*.content-wrap{
+	background: url(../img/image/bg_bottom.jpg) bottom center no-repeat;
+}*/
+.login-style {
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    width: 640px;
+    margin: 20px auto 0;
+    color: #7d7d7d;
+}
+.login-style a{
+	color: #333;
+	display: inline;
+}
+.cdk-line{
+	background: url(//game.gtimg.cn/images/x5/web201803/cdkey/cdkey-line.png) center center no-repeat;
+    width: 1117px;
+    height: 1px;
+}
+.cdkey-form{
+    width: 624px;
+    height: 715px;
+    border-radius: 8px;
+    margin: 35px auto 0;
+    font-size: 18px;
+}
+.cdkey-bg ul {
+    height: 400px;
+    padding-top: 20px;
+}
+.cdkey-bg ul li {
+    height: 35px;
+    text-align: left;
+    padding-left: 185px;
+    position: relative;
+    zoom: 1;
+    margin-top: 25px;
+}
+.cdkey-bg ul li label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 185px;
+    text-align: right;
+    line-height: 35px;
+    font-size: 14px;
+}
+.cdkey-bg ul li .cdkey-txt{
+	width: 326px;
+    height: 35px;
+    border: 1px solid grey !important;
+    margin-left:10px;
+}
+.cdkey-bg ul li .cdkey-txt2{
+	width: 62px;
+	height: 21px;
+	border: 1px solid grey;
+	margin-left: 10px;
+}
+.cdkey-bg ul li p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cdkey-bg ul li p a{
+	font-size: 14px;
+    color: #478afe;
+}
+.cdkey-bg .cdkey_exchange {
+    display: block;
+    margin:-142px auto 0;
+    text-align: center;
+    width: 340px;
+    height: 90px;
+    line-height: 90px;
+    background-color: #5a97ff;
+    font-size: 24px;
+}
+.cdk_explain {
+    margin-top: 36px;
+    color: #ff8a00;
+    font-size: 14px;
+}
+.cdk_explain span {
+    background-image: url(//game.gtimg.cn/images/x5/web201803/cdkey/spr_4.png);
+    background-size: 40px 32px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: -2px;
+    margin-right: 3px;
+}
+.cdkey_content {
+    width: 936px;
+    margin: 63px auto;
+    text-align: left;
+    color: #000;
+    padding-top:60px;
+    border-top: 1px solid #e6e6e6;
+}
+.cdkey_content h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.cdkey_content p {
+    font-size: 14px;
+    margin-top: 12px;
+}

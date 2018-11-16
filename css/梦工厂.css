@@ -1,0 +1,277 @@
+.bg {
+	height: 3823px;
+	background: url(../img/img2/bg.jpg) no-repeat center top;
+}
+#header1{background-color:transparent;}
+.cont-bg {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+	position: relative;
+	height: 100%;
+	background: url(../img/img2/cont-bg.jpg) center top no-repeat;
+	padding-bottom: 20px;
+}
+
+.three-logo {
+	display: block;
+	float: left;
+	width: 125px;
+	height: 111px;
+}
+
+.three-logo1 {
+	width: 186px;
+}
+
+.tips {
+	text-align: center;
+	color: #faffd0;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 26px;
+	padding-top: 420px;
+	text-shadow: 5px -2px 8px #00a5a2;
+}
+
+.scan {
+	width: 233px;
+	margin: 18px auto 0;
+	position: relative;
+}
+
+.light {
+	background: url(../img/img2/light1.png) no-repeat;
+	width: 165px;
+	height: 14px;
+	position: absolute;
+	left: 35px;
+	top: 0;
+	animation: scanMove 1s infinite alternate;
+}
+
+@keyframes scanMove {
+	0% {
+		top: 10px;
+	}
+	100% {
+		top: 140px;
+	}
+}
+.login{
+	text-align: center;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.cont1{
+	background: url(//game.gtimg.cn/images/mgc/cp/a201808new/box-bg.png) no-repeat;
+    width: 1067px;
+    height: 922px;
+    margin: 20px auto 0;
+    padding-top: 50px;
+}
+.title1 {
+    background-position: 0 -409px !important;
+    width: 580px;
+    height: 58px;
+    margin: 0 auto;
+}
+.comm {
+    background: url(../img/img2/comm.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+@keyframes show{
+0% {
+    transform: translateX(-100px);
+    opacity: 0;
+}
+100% {
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+.part.show .title1, .part.show .title2, .part.show .title3, .part.show .title4 {
+    animation: show 1.5s forwards;
+}
+.part .list{
+	opacity: 0;
+	padding: 26px 0 0 40px;
+	animation: fadeup 2s 0.1s forwards;
+}
+@keyframes fadeup{
+	0% {
+    transform: translateY(60px);
+    opacity: 0;
+}
+100% {
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+#list1{
+	background-color: transparent;
+	position: relative;
+	height: 794px;
+	margin-top: -90px;
+}
+/*#list1 li:first-child{
+	position: absolute;
+	left: 0;
+	top: 0;
+}*/
+.list li{
+	float: left;
+	width: 446px;
+    margin: 0 23px 37px 0;
+}
+.list li:last-child{margin-left: 236px;}
+.tit{text-align: center;height: 40px;}
+.tit i{
+	display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #7ae1db;
+}
+.tit strong{
+	color: #07c1be;
+    font-size: 32px;
+    line-height: 40px;
+    padding: 0 13px;
+}
+.list li span{
+	display: block;
+    text-align: center;
+    color: #008e9b;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.list li .dj{
+	position: relative;
+    width: 446px;
+    height: 189px;
+    margin-top: 16px;
+}
+.list li .dj em{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 446px;
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+    height: 54px;
+    line-height: 26px;
+}
+.list li a{
+	display: block;
+    background: url(//game.gtimg.cn/images/mgc/cp/a201808new/btn.png) no-repeat;
+    width: 193px;
+    height: 57px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 57px;
+    margin: 10px auto 0;
+}
+.title1, .title2, .title3, .title4, .name, .name2, .img1, .img2, .list {
+    opacity: 0;
+}
+.part .name, .part .img2 {
+    animation:show 1.5s forwards;
+}
+.title2 {
+    width: 363px;
+    height: 53px;
+    margin: 0 auto;
+}
+.name {
+    float: left;
+    width: 403px;
+    margin: 146px 0 0 154px;
+}
+.name strong {
+    display: block;
+    background-position: 0 -349px;
+    width: 381px;
+    height: 41px;
+}
+.name p {
+    color: #00b4b2;
+    font-size: 24px;
+    width: 333px;
+    line-height: 44px;
+    padding-top: 32px;
+}
+.img1 {
+    float: right;
+    margin: 25px 146px 0 0;
+    width: 297px;
+}
+@keyframes show1{
+	0% {
+    transform: translateX(100px);
+    opacity: 0;
+}
+100% {
+    transform: translateX(0);
+    opacity: 1;
+}
+}
+.part.show .img1,.part.show .name2{
+	animation: show1 1.2s forwards;
+}
+.title3 {
+    background-position: 0 -75px;
+    width: 481px;
+    height: 113px;
+    margin: 80px auto;
+}
+.img2 {
+    float: left;
+    width: 298px;
+    height: 510px;
+    margin: 29px 0 0 156px;
+}
+.name2 {
+    float: right;
+    width: 360px;
+    margin: 122px 134px 0 0;
+}
+.name2 strong {
+    background-position: 0 -306px;
+    width: 360px;
+    height: 40px;
+    display: block;
+}
+.name2 p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 44px;
+    width: 340px;
+    padding-top: 33px;
+}
+.title4 {
+    background-position: 0 -190px;
+    width: 483px;
+    height: 55px;
+    margin:56px auto;
+}
+.name3 strong {
+    background-position: 0 -261px;
+}
+.name p{
+    color: #00b4b2;
+    font-size: 24px;
+    width: 333px;
+    line-height: 44px;
+    padding-top: 32px;
+}
+#footer1{
+	background-color:whitesmoke;
+	margin-top:1px;
+	position: relative;
+	z-index: 99;
+}

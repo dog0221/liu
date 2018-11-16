@@ -1,0 +1,201 @@
+.content1{
+	width: 1400px;
+	height: 1022px;
+	margin:-520px auto 0;
+}
+.content1-inner{
+	width: 1040px;
+	height: 754px;
+	padding: 30px;
+	background-color:white;
+	float: left;
+	position: relative;
+}
+.breadcrumb{
+	font-size: 16px;
+    line-height: 28px;
+    color: #525252;
+}
+.ico-home {
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    margin-top: -3px;
+    vertical-align: middle;
+    background-position: -342px -36px !important;
+}
+.breadcrumb a {
+    border-bottom: 1px dotted #8c8c8c;
+    display: inline;
+    color: #525252;
+}
+.official-inner ul{
+	padding: 10px 0px 40px;
+}
+.official-inner ul li{
+	width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #ccc;
+}
+.version_list_cover {
+    float: left;
+    display: block;
+    width: 367px;
+    height: 100px;
+    overflow: hidden;
+}
+.version_list_cover img:hover{
+	transform:scale(1.1);
+	transition:1s;
+}
+.version_list_link {
+    display: block;
+    padding-left: 387px;
+    font-size: 14px;
+}
+
+.version_list_link h3 {
+    color: #3e3e3e;
+    font-size: 24px;
+    line-height: 26px;
+}
+.version_list_date {
+    padding: 5px 0;
+    color: #737373;
+    line-height: 26px;
+}
+.version_list_desc {
+    color: #a4a4a4;
+    height: 42px;
+    overflow: hidden;
+}
+.page{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #808080;
+    background: #f4f4f4;
+}
+
+
+.content1-side{
+	width: 290px;
+	float: right;
+	overflow: hidden;
+}
+.content1-side-nav{
+	width: 100%;
+    height: 160px;
+    background: #47567e;
+    background: rgba(43, 55, 94, .8);
+    background-image: radial-gradient(farthest-side at 40% 10%, rgba(255, 255, 255, .2), transparent);
+    overflow: hidden;
+}
+.content1-side-nav li {
+    float: left;
+    width: 145px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    border-right: 1px solid rgba(21, 30, 58, .2) ;
+    border-bottom: 1px solid rgba(21, 30, 58, .2);
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+.content1-side-nav li:first-child {
+    width: 290px;
+    font-size: 16px;
+}
+.content1-side-nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, .6);
+}
+.content1-side-nav li a:hover em{margin-left: 10px;}
+.content1-side-nav li .ico-act1 {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 19px;
+    margin-top: -3px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.content1-side-nav li .ico-act1-t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 8px;
+    background-position: -361px 0;
+    animation: swingT 1.7s 1s ease-in-out infinite;
+}
+@keyframes swingT{
+	
+5% {
+    transform: translate3d(0, 1px, 0) rotate3d(0, 0, 1, 10deg);
+}
+15% {
+    transform: translate3d(0, -4px, 0) rotate3d(0, 0, 1, -10deg);
+}
+20% {
+    transform: translate3d(0, -3px, 0) rotate3d(0, 0, 1, 5deg);
+}
+25% {
+    transform: translate3d(0, 0, 0) rotate3d(0, 0, 1, -5deg);
+}
+30% {
+    transform: translate3d(0, 1.5px, 0) rotate3d(0, 0, 1, 0deg);
+}
+37%, 100% {
+    transform: translate3d(0, 0, 0) rotate3d(0, 0, 1, 0deg);
+}
+}
+.ico-act1-b{
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+    width: 18px;
+    height: 10px;
+    background-position: -362px -9px !important;
+    animation: swingB 1.7s 1s ease-in-out infinite;
+    transform-origin: 50% 100%;
+    display: block;
+}
+@keyframes swingB{
+	1% {
+    transform: scale3d(1.05, .95, 1);
+}
+3% {
+    transform: scale3d(1.1, .9, 1);
+}
+5% {
+    transform: scale3d(1.08, .93, 1);
+}
+7%, 25% {
+    transform: scale3d(1, 1, 1);
+}
+30% {
+    transform: scale3d(1.07, .94, 1);
+}
+37%, 100% {
+    transform: scale3d(1, 1, 1);
+}
+}
+.content1-side-nav em {
+    display: inline-block;
+    font-family: 'SimSun';
+    transform: perspective(1px) translateZ(0);
+    transition: transform .3s;
+}
+.list-side-ad{margin-top:16px;}
+.list-side-ad1{margin-top: 20px;}

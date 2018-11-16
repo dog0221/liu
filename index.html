@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/首页.css" />
+		<link rel="stylesheet" type="text/css" href="css/日历.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="fixed"></div>
+		<header>
+			<div class="header-inner">
+				<div class="logo">
+					<a href=""><img src="img/image/logo1.png" /></a>
+				</div>
+				<div class="nav">
+					<ul class="menu">
+						<li>
+							游戏资料
+							<span>GAME INFO</span>
+						</li>
+						<li>
+							特权/专区
+							<span>VIP</span>
+						</li>
+						<li>
+							商城合作
+							<span>STORE</span>
+
+						</li>
+						<li>
+							玩家社区
+							<span>COMMUNITY</span>
+
+						</li>
+						<li>
+							炫舞梦工厂
+							<span>X5MGC</span>
+
+						</li>
+						<li>
+							自助系统
+							<span>SYSTEM</span>
+
+						</li>
+					</ul>
+					<div class="list">
+						<div class="list-inner">
+							<div class="list-nav">
+								<ul>
+									<li>
+										<a href="2官方说.html" target="_blank">官方说</a>
+									</li>
+									<li>
+										<a href="3版本介绍.html" target="_blank">版本介绍</a>
+									</li>
+									<li>
+										<a href="">正版手游</a>
+									</li>
+									<li>
+										<a href="">壁纸下载</a>
+									</li>
+									<li>
+										<a href="">视频中心</a>
+									</li>
+									<li>
+										<a href="">新手指引</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="6XVIP.html" target="_blank">XVIP至尊会员</a>
+									</li>
+									<li>
+										<a href="">炫舞紫钻贵族</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="">周边商城</a>
+									</li>
+									<li>
+										<a href="">道聚城</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="">玩家论坛</a>
+									</li>
+									<li>
+										<a href="">炫舞小精灵</a>
+									</li>
+									<li>
+										<a href="">炫舞微信</a>
+									</li>
+									<li>
+										<a href="">兴趣部落</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="">梦工厂活动</a>
+									</li>
+									<li>
+										<a href="4梦工厂app.html" target="_blank">梦工厂APP</a>
+									</li>
+									<li>
+										<a href="">梦工厂论坛</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="">转服系统</a>
+									</li>
+									<li>
+										<a href="">体验服</a>
+									</li>
+									<li>
+										<a href="">游戏信用星级</a>
+									</li>
+									<li>
+										<a href="">自助服务</a>
+									</li>
+									<li>
+										<a href="">腾讯客服</a>
+									</li>
+									<li>
+										<a href="5CDK兑换.html" target="_blank">CDKey兑换</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<script type="text/javascript">
+			$(function() {
+				//下拉列表中，滑动某个ul，改变对应导航中li的背景色
+				$(".list-nav ul").hover(function() {
+					$(".menu li").removeClass().eq($(this).index()).addClass("on1")
+				}, function() {
+					$(".menu li").removeClass("on1")
+				})
+				//导航栏中的li，滑动变色，添加类名
+				$(".menu li").hover(function() {
+					$(".menu li").removeClass().eq($(this).index()).addClass("on1")
+				}, function() {
+					$(".menu li").removeClass("on1")
+				})
+				//下拉列表中，滑动某个li，其颜色改变
+				//				$(".list-nav ul li").hover(function  () {
+				//					$(".list-nav ul li").removeClass().eq($(this).index()).addClass("list_li")
+				//				},function  () {
+				//					$(".list-nav ul li").removeClass()
+				//				})
+			})
+		</script>
+		<div class="box">
+			<div class="section">
+				<div class="video">
+					<video autoplay="autoplay" loop="loop" muted="muted" width="100%" height="100%">
+						<source src="img/image/video_banner.mp4">
+					</video>
+				</div>
+				<div class="video-inner">
+					<div class="color">第五届炫舞节·五光十色</div>
+					<div class="come">2018炫舞节现已到来 十重福利揭晓</div>
+					<a href="">查看详情</a>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			$(".section").css("width", $(window).width())
+		</script>
+		<div class="content-wrap">
+			<div class="layout">
+				<div id="lunbo">
+					<ul id="pic">
+						<li><img src="img/image/1541445718556631569.jpg" /></li>
+						<li><img src="img/image/1540759935793096311.jpg" /></li>
+						<li><img src="img/image/1540843482147687472.jpg" /></li>
+						<li><img src="img/image/1540857554851855087.jpg" /></li>
+						<li><img src="img/image/1541094840208938631.jpg" /></li>
+						<li><img src="img/image/1541124118501924574.jpg" /></li>
+					</ul>
+					<ol id="list">
+						<li class="on">炫舞节活动站</li>
+						<li>炫舞节砍价</li>
+						<li>炫舞节来袭</li>
+						<li>瓜分23亿点券</li>
+						<li>盛典限定礼服</li>
+						<li>10月版本调研</li>
+					</ol>
+				</div>
+				<script type="text/javascript">
+					var oDiv = document.getElementById('lunbo');
+					var oPic = document.getElementById('pic');
+					var oList = document.getElementById('list').getElementsByTagName('li');
+					var index = 0
+					var timer
+
+					function changeimg(curindex) {
+						// curindex=index
+						for(i = 0; i < oList.length; i++) {
+							oList[i].className = ''
+						}
+						oList[curindex].className = 'on'
+						oPic.style.marginLeft = -940 * curindex + 'px'
+					}
+
+					function autoplay() {
+						index++
+						if(index >= oList.length) {
+							index = 0
+						}
+						changeimg(index)
+					}
+
+					timer = setInterval(autoplay, 3000)
+
+					for(i = 0; i < oList.length; i++) {
+						oList[i].index = i
+						oList[i].onmouseover = function() {
+							clearInterval(timer)
+							changeimg(this.index)
+						}
+					}
+
+					oDiv.onmouseover = function() {
+						clearInterval(timer)
+					}
+					oDiv.onmouseout = function() {
+						timer = setInterval(autoplay, 3000)
+					}
+				</script>
+				<div class="side-nav">
+					<div class="side-down-wrap">
+						<video class="side-down-load" autoplay="autoplay" loop="loop" muted="muted">
+							<source src="img/image/down.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="side-version">当前版本2018年11月版本（11月8日更新）
+						<a href="">more <span> > </span> </a>
+					</div>
+					<ul class="side-menu">
+						<li>
+							<i class="ico-act">
+				    			<b class="ico-act-t sp"></b>
+				    			<b class="ico-act-b sp"></b>
+				    		</i>
+							<span>活动中心</span>
+							<em class="lt">></em>
+						</li>
+						<li>
+							<i class="ico-officialsay sp ico-say"></i>
+							<span class="letter-spacing">官方说</span>
+							<em>></em>
+						</li>
+						<li>
+							<i class="ico-officialsay ico-officialsay1 sp ico-say"></i>
+							<span class="letter-spacing letter-spacing1">壁纸下载</span>
+							<em>></em>
+						</li>
+						<li>
+							<i class="ico-officialsay  ico-officialsay2 sp ico-say"></i>
+							<span class="letter-spacing letter-spacing1">玩家论坛</span>
+							<em>></em>
+						</li>
+						<li>
+							<i class="ico-officialsay  ico-officialsay3 sp ico-say"></i>
+							<span class="letter-spacing letter-spacing1">炫舞微信</span>
+							<em>></em>
+						</li>
+						<li>
+							<i class="ico-officialsay ico-officialsay4 sp ico-say"></i>
+							<span class="letter-spacing letter-spacing2">微信小灵通</span>
+							<em>></em>
+						</li>
+						<li>
+							<i class="ico-officialsay ico-officialsay5  sp ico-say"></i>
+							<span class="letter-spacing letter-spacing1">周边商城</span>
+							<em>></em>
+						</li>
+					</ul>
+				</div>
+				<div class="news">
+					<div class="tab">
+						<ul id="btn1">
+							<li>最新</li>
+							<li>公告</li>
+							<li>活动</li>
+							<li>商城</li>
+							<li>梦工厂</li>
+							<li>官方说</li>
+							<li>社区</li>
+						</ul>
+						<a href="">
+							更多
+							<i class="ico-more sp"></i>
+						</a>
+					</div>
+					<div id="new-list">
+						<!--最新-->
+						<ul style="display: block;">
+							<li>
+								<a href="">
+									<img src="img/image/img_new35257.jpg" />
+									<span class="new-text">
+										<span class="new-title">【社区活动】再不上车就没了！炫舞节福利火爆开抢！</span>
+									<span class="new-desc">十重福利正式揭晓，炫舞节狂欢整月不停歇。明星学长毛不易献祝福</span>
+									</span>
+								</a>
+							</li>
+							<li class="new-item" style="margin-top: 16px;">
+								<a href="" class="link-title">
+									<span class="new-type">最新</span>
+									<span>炫舞节GM甄选福利 【GM-老张】福利公布</span>
+									<span class="new-time">11/10</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">最新</span>
+									<span>【狂欢11.11】炫舞节双倍震撼来袭</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">最新</span>
+									<span>【狂欢11.11】第五届炫舞节取消收券2小时</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">最新</span>
+									<span>炫舞11月演唱会，永久坐骑超值惊喜！</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">最新</span>
+									<span>再不上车就来不及了！炫舞节福利火爆开抢！</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+						</ul>
+						<!--公告-->
+						<ul>
+							<li>
+								<a href="">
+									<img src="img/image/img_new35255.jpg" />
+									<span class="new-text">
+										<span class="new-title">关于部分玩家物品展示模糊问题的公告与解决方法</span>
+									<span class="new-desc">关于部分玩家物品展示模糊问题的公告与解决方法</span>
+									</span>
+								</a>
+							</li>
+							<li class="new-item" style="margin-top: 16px;">
+								<a href="" class="link-title">
+									<span class="new-type">公告</span>
+									<span>星空许愿活动奖励发放公告</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">公告</span>
+									<span>关于部分玩家物品展示模糊问题的公告与解决方案</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">公告</span>
+									<span>关于排位赛1105-1106有明显作弊证据玩家处罚公告</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">公告</span>
+									<span>活动精选“锦瑟系列”超值买赠异常公告</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">公告</span>
+									<span>2018年11月8日全服维护完成公告</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+						</ul>
+						<!--活动-->
+						<ul>
+							<li>
+								<a href="">
+									<img src="img/image/img_new35254.jpg" />
+									<span class="new-text">
+										<span class="new-title">炫舞节GM甄选福利 【GM-老张】福利公布</span>
+									<span class="new-desc"> &nbsp;&nbsp;十重福利正式揭晓，炫舞节狂欢整月不停歇。明星学长毛不易献祝福</span>
+									</span>
+								</a>
+							</li>
+							<li class="new-item" style="margin-top: 16px;">
+								<a href="" class="link-title">
+									<span class="new-type">活动</span>
+									<span>再不上车就没啦！炫舞节福利火爆开抢！</span>
+									<span class="new-time">11/10</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">活动</span>
+									<span>炫舞节GM甄选福利 【GM-艾米】福利公布</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">活动</span>
+									<span>炫舞节GM甄选福利 【GM-周董】福利公布</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">活动</span>
+									<span>炫舞11月演唱会，永久坐骑超值惊喜！</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">活动</span>
+									<span>一砍到底炫舞节特辑</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+						</ul>
+						<!--商城-->
+						<ul>
+							<li>
+								<a href="">
+									<img src="img/image/img_new35253.jpg" />
+									<span class="new-text">
+										<span class="new-title">11月10日珍宝八音更新＆11月11日珍宝八音盒双倍预告</span>
+									<span class="new-desc"></span>
+									</span>
+								</a>
+							</li>
+							<li class="new-item" style="margin-top: 16px;">
+								<a href="" class="link-title">
+									<span class="new-type">商城</span>
+									<span>炫舞节GM甄选福利 【GM-老张】福利公布</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">商城</span>
+									<span>【狂欢11.11】炫舞节双倍震撼来袭</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">商城</span>
+									<span>【狂欢11.11】第五届炫舞节取消收券2小时</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">商城</span>
+									<span>炫舞11月演唱会，永久坐骑超值惊喜！</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">商城</span>
+									<span>再不上车就来不及了！炫舞节福利火爆开抢！</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+						</ul>
+						<!--梦工厂-->
+						<ul>
+							<li>
+								<a href="">
+									<img src="img/image/img_new35250.jpg" />
+									<span class="new-text">
+										<span class="new-title">【社区活动】再不上车就没了！炫舞节福利火爆开抢！</span>
+									<span class="new-desc">炫舞11月演唱会，永久坐骑超值惊喜！</span>
+									</span>
+								</a>
+							</li>
+							<li class="new-item" style="margin-top: 16px;">
+								<a href="" class="link-title">
+									<span class="new-type">梦工厂</span>
+									<span>炫舞11月演唱会，永久坐骑超值惊喜！</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">梦工厂</span>
+									<span>炫舞节管家小静直播公告</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">梦工厂</span>
+									<span>【年度盛典指挥官】助力年度盛典，点燃荣耀之战</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">梦工厂</span>
+									<span>【炫舞节】瓜分23亿点券，来梦工厂直播间</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">梦工厂</span>
+									<span>【梦工厂炫舞节献礼】张蜀黍再度来袭，点券翻倍豪礼不断！</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+						</ul>
+						<!--官方说-->
+						<ul>
+							<li>
+								<a href="">
+									<img src="img/image/img_new35252.jpg" />
+									<span class="new-text">
+										<span class="new-title">【社区活动】再不上车就没了！炫舞节福利火爆开抢！</span>
+									<span class="new-desc">炫舞节GM甄选福利 【GM-老张】福利公布</span>
+									</span>
+								</a>
+							</li>
+							<li class="new-item" style="margin-top: 16px;">
+								<a href="" class="link-title">
+									<span class="new-type">官方说</span>
+									<span>炫舞节GM甄选福利 【GM-老张】福利公布</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">官方说</span>
+									<span>【狂欢11.11】炫舞节双倍震撼来袭</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">官方说</span>
+									<span>【狂欢11.11】第五届炫舞节取消收券2小时</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">官方说</span>
+									<span>炫舞11月演唱会，永久坐骑超值惊喜！</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">官方说</span>
+									<span>再不上车就来不及了！炫舞节福利火爆开抢！</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+						</ul>
+						<!--社区-->
+						<ul>
+							<li>
+								<a href="">
+									<img src="img/image/img_new35251.jpg" />
+									<span class="new-text">
+										<span class="new-title">【社区活动】再不上车就没了！炫舞节福利火爆开抢！</span>
+									<span class="new-desc"></span>
+									</span>
+								</a>
+							</li>
+							<li class="new-item" style="margin-top: 16px;">
+								<a href="" class="link-title">
+									<span class="new-type">社区</span>
+									<span>【社区活动】七夕就是要秀，晒最美情侣合照赢给力币+神秘福利</span>
+									<span class="new-time">11/09</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">社区</span>
+									<span>2018年4月炫舞PC&amp;手机壁纸+透明素材</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">社区</span>
+									<span>/ 官方说：目标明确</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">社区</span>
+									<span>/ 官方说：荣耀排位赛详细介绍</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+							<li class="new-item">
+								<a href="" class="link-title">
+									<span class="new-type">社区</span>
+									<span>/ 官方说：对局排位赛</span>
+									<span class="new-time">11/08</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+						var obox = document.getElementById('new-list');
+						var oipt = document.getElementById('btn1').getElementsByTagName('li')
+						var odiv = obox.getElementsByTagName('ul');
+
+						for(var i = 0; i < oipt.length; i++) {
+							oipt[i].index = i
+							oipt[i].onmouseover = function() {
+								for(var i = 0; i < oipt.length; i++) {
+									oipt[i].className = ''
+									odiv[i].style.display = 'none'
+								}
+								this.className = 'active';
+								odiv[this.index].style.display = 'block';
+							}
+						}
+					</script>
+					<div class="promotion-wrap">
+						<div class="promotion1">
+							<img src="img/image/1540457512793934192.jpg" />
+							<i class="pic-mask"></i>
+							<p class="new-version">新版本：复古潮趴</p>
+							<p class="package">探戈玩法到来，背包优先上线</p>
+						</div>
+						<div class="video1">
+							<img src="img/image/0 (1).jpg" />
+							<div class="video-cover">
+								<i class="ico-video sp"></i>
+							</div>
+							<p class="video-list">
+								<i class="pic-mask"></i>
+								<strong>炫舞明星学长毛不易莅临炫舞节</strong>
+								<span class="time">00：12</span>
+							</p>
+						</div>
+						<div class="promotion-side">
+							<div class="promotion2"><img src="img/image/1540458218261818265.jpg" /></div>
+							<div class="promotion2 promotion3"><img src="img/image/1540458196478893430.jpg" /></div>
+						</div>
+					</div>
+				</div>
+				<div class="side-content">
+					<div id="tab1">
+						<ul>
+							<li class="lion">最新活动</li>
+							<li>商城推荐</li>
+							<li>梦工厂推荐</li>
+						</ul>
+						<div class="three" style="display: block;">
+							<div class="three1">
+								<div class="three2">
+									<h4>一砍到底炫舞节特辑</h4>
+									<p>0元带走首发耳钉翅膀及帅气制服</p>
+								</div>
+								<img src="img/image/1540458566069165572.jpg" />
+							</div>
+							<div class="three1">
+								<div class="three2">
+									<h4>炫舞节活动站</h4>
+									<p>全魔法套、999天VIP金卡、海量Q币</p>
+								</div>
+								<img src="img/image/1540458599620675866.jpg" />
+							</div>
+						</div>
+						<div class="three">
+							<div class="three1">
+								<div class="three2">
+									<h4>吟乐者登场</h4>
+									<p></p>
+								</div>
+								<img src="img/image/1540458599620675866.jpg" />
+							</div>
+							<div class="three1">
+								<div class="three2">
+									<h4>双月消费回馈</h4>
+									<p>多款坐骑任挑选</p>
+								</div>
+								<img src="img/image/1540857682016382463.png" />
+							</div>
+						</div>
+						<div class="three">
+							<div class="three1">
+								<div class="three2">
+									<h4>风车飘蝶</h4>
+									<p>全新非卖可飞座驾</p>
+								</div>
+								<img src="img/image/1541029622311607753.jpg" />
+							</div>
+							<div class="three1">
+								<div class="three2">
+									<h4>梦工厂演唱会</h4>
+									<p>海螺坐骑如梦似幻</p>
+								</div>
+								<img src="img/image/1540458566069165572.jpg" />
+							</div>
+						</div>
+					</div>
+					<script type="text/javascript">
+						var obox1 = document.getElementById('tab1');
+						var oipt1 = obox1.getElementsByTagName('li');
+						var odiv1 = document.querySelectorAll(".three")
+						for(var i = 0; i < oipt1.length; i++) {
+							oipt1[i].index = i
+							oipt1[i].onmouseover = function() {
+								for(var i = 0; i < oipt1.length; i++) {
+									oipt1[i].className = ''
+									odiv1[i].style.display = 'none'
+								}
+								this.className = 'lion';
+								odiv1[this.index].style.display = 'block';
+							}
+						}
+					</script>
+					<div id="calendar">
+						<table class="calendarHeader">
+							<tbody>
+								<tr>
+									<td class="prevMonthActive">&lt;</td>
+									<td class="currentDate">2018年11月</td>
+									<td class="nextMonthActive">&gt;</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="calendarContent">
+							<table>
+								<tbody>
+									<tr class="weekdays">
+										<td>日</td>
+										<td>一</td>
+										<td>二</td>
+										<td>三</td>
+										<td>四</td>
+										<td>五</td>
+										<td>六</td>
+									</tr>
+									<tr rel="0">
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td>&nbsp;</td>
+										<td rel="" class="isDate" id="days-2018-11-1">1</td>
+										<td rel="" class="isDate" id="days-2018-11-2">2</td>
+										<td rel="" class="isDate" id="days-2018-11-3">3</td>
+									</tr>
+									<tr rel="1">
+										<td rel="" class="isDate" id="days-2018-11-4">4</td>
+										<td rel="" class="isDate" id="days-2018-11-5">5</td>
+										<td rel="on" class="isDate" id="days-2018-11-6"><span class="acts_days status sp">6</span></td>
+										<td rel="" class="isDate" id="days-2018-11-7">7</td>
+										<td rel="on" class="isDate" id="days-2018-11-8"><span class="acts_days status sp">8</span></td>
+										<td rel="on" class="isDate" id="days-2018-11-9"><span class="acts_days status sp">9</span></td>
+										<td rel="" class="isDate" id="days-2018-11-10">10</td>
+									</tr>
+									<tr rel="2">
+										<td rel="on" class="isDate" id="days-2018-11-11"><span class="acts_days status sp">11</span></td>
+										<td rel="" class="isDate" id="days-2018-11-12">12</td>
+										<td rel="" class="isDate" id="days-2018-11-13">13</td>
+										<td rel="" class="isDate" id="days-2018-11-14">14</td>
+										<td rel="" class="isDate" id="days-2018-11-15">15</td>
+										<td rel="" class="isToday" id="days-2018-11-16">16</td>
+										<td rel="" class="isDate" id="days-2018-11-17">17</td>
+									</tr>
+									<tr rel="3">
+										<td rel="" class="isDate" id="days-2018-11-18">18</td>
+										<td rel="" class="isDate" id="days-2018-11-19">19</td>
+										<td rel="" class="isDate" id="days-2018-11-20">20</td>
+										<td rel="" class="isDate" id="days-2018-11-21">21</td>
+										<td rel="" class="isDate" id="days-2018-11-22">22</td>
+										<td rel="" class="isDate" id="days-2018-11-23">23</td>
+										<td rel="" class="isDate" id="days-2018-11-24">24</td>
+									</tr>
+									<tr rel="4">
+										<td rel="" class="isDate" id="days-2018-11-25">25</td>
+										<td rel="" class="isDate" id="days-2018-11-26">26</td>
+										<td rel="" class="isDate" id="days-2018-11-27">27</td>
+										<td rel="" class="isDate" id="days-2018-11-28">28</td>
+										<td rel="" class="isDate" id="days-2018-11-29">29</td>
+										<td rel="" class="isDate" id="days-2018-11-30">30</td>
+										<td>&nbsp;</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="calendar_tips">
+							<span class="calendar_arrow"></span>
+							<ul class="calendar_items" id="calendar_items" style="width: 328px; overflow: hidden;">
+								<li class="">
+									<a target="_blank" href=""><span class="calendar_link">GO&nbsp;<i>&gt;</i></span>
+										<p class="calendar_act_title1">11月梦工厂演唱会</p>
+										<p class="calendar_act_desc">海螺坐骑如梦似幻 炫酷情侣套装靓爆了！</p>
+										<p class="calendar_act_title2">主要奖励:</p>
+										<div class="calendar_act_gift clearfix">
+											<div class="calendar_act_gift_items">
+												<div class="calendar_act_gift_items_img"><img src="//ossweb-img.qq.com/images/clientpop/act/x5_1541770414_uploadCalenImgA.jpg" alt="海螺坐骑"></div>
+												<p>海螺坐骑</p>
+											</div>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+        <script type="text/javascript" src="js/jquery.min.js">
+        	$("#days-2018-11-11").click(function  () {
+        		$(".calendar_tips").css("display","block")
+        	})
+        </script>
+		<footer>
+			<div class="footer-inner">
+				<div class="footer-left">
+					<div class="footer-logo">
+						<a href=""><img src="img/image/foot-dark.png" /></a>
+						<a href="" class="yh sp"></a>
+					</div>
+					<div class="footer-tip1">
+						<p>温馨提示</p>
+						<ul>
+							<li>抵制不良游戏</li>
+							<li>拒绝盗版游戏</li>
+							<li>注意自我保护</li>
+							<li>谨防上当受骗</li>
+							<li>适度游戏益脑</li>
+							<li>沉迷游戏伤身</li>
+							<li>合理安排时间</li>
+							<li>享受健康生活</li>
+						</ul>
+					</div>
+					<div class="footer-tip2">
+						<i class="jjcm sp"></i>
+						<p>QQ炫舞所有对局音乐版权均由霍尔果斯巨匠传媒有限公司提供</p>
+					</div>
+				</div>
+				<div class="footer-right">
+					<div class="footer-link">
+						<a href="">腾讯互动娱乐</a>
+						<span> | </span>
+						<a href="">服务条款</a>
+						<span> | </span>
+						<a href="">隐私政策</a>
+						<span> | </span>
+						<a href="">腾讯游戏招聘</a>
+						<span> | </span>
+						<a href="">腾讯游戏客服</a>
+						<span> | </span>
+						<a href="">游戏地图</a>
+						<span> | </span>
+						<a href="">商务合作</a>
+						<span> | </span>
+						<a href="">腾讯网</a>
+						<span> | </span>
+						<a href="">网站导航</a>
+					</div>
+					<p>腾讯公司版权所有</p>
+					<p>COPYRIGHT &copy; 1998-2018 TENCENT ALL RIGHT RESERVE</p>
+					<p>本网络游戏适合14+岁的用户使用，为了您的健康，请合理控制游戏时间</p>
+					<p>粤网文[2017]6138-1456号 | 新出网证（粤）字010号</p>
+					<p>
+						<img src="img/image/logo.png" />文网备字[2009]043号
+						<span> | </span> 科技与数字[2012]594号
+						<span> | </span> ISBN：978-7-900179-43-2
+						<span> | </span> 全国文化市场统一举报电话：12318
+					</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>
